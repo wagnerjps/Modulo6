@@ -1,0 +1,26 @@
+{
+  "name": "modulo6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "001_strings.js",
+  "scripts": {
+    "dev": "nodemon dicas/012_Server-debug-VSCode.js",
+    "debug": "node --inspect ./dicas/013_Encadeando-Promises.js",
+    "start": "node principal.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "jest": "^26.1.0"
+  },
+  "jest": {
+    "collectCoverage": true
+  }
+}
